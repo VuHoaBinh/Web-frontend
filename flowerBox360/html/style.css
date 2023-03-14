@@ -1,0 +1,147 @@
+* {
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    width: 80%;
+    height: 600px;
+    /* border: 1px solid brown; */
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #294e79;
+    color: white;
+    font-weight: bold;
+}
+
+header img {
+    height: 100%;
+    margin-left: 18px;
+}
+
+header h1 {
+    position: fixed;
+    top: 20px;
+    left: 288px;
+}
+
+header h4 {
+    position: fixed;
+    top: 57px;
+    left: 288px;
+}
+
+header form {
+    position: fixed;
+    top: 14px;
+    right: 173px;
+}
+
+header form input {
+    background-color: #1c3451;
+    color: white;
+    padding: 13px;
+}
+
+nav {
+    position: fixed;
+    top: 83px;
+    left: 784px;
+    line-height: 17px;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: #3d73b1;
+    padding: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* /////////////////////////////////////////////// */
+
+.frm {
+    color: red;
+    text-shadow: 4px 4px 4px green;
+    font-weight: bold;
+}
+
+section h1,
+aside h1 {
+    padding: 20px;
+    color: #a29196;
+    border-bottom: 1px dashed #a29196;
+}
+
+section {
+    width: 70%;
+    height: 420px;
+    float: left;
+}
+
+article.left {
+    width: 60%;
+    height: 300px;
+    float: left;
+    padding: 10px;
+}
+
+article.info {
+    width: 40%;
+    height: 300px;
+    float: left;
+}
+
+.frminfo .frmdetail {
+    width: 40%;
+    float: left;
+    margin: 5px;
+}
+
+.frminfo .frmmess {
+    clear: both;
+}
+
+.frminfo input {
+    background-color: #f7f7f7;
+    border: 1px solid grey;
+}
+
+.info div {
+    padding: 14px;
+}
+
+
+/* ///////////////////////////////////////////////////// */
+
+aside {
+    width: 30%;
+    height: 420px;
+    float: left;
+    padding: 20px;
+}
+
+.a_aside {
+    position: fixed;
+    top: 246px;
+    right: 169px;
+}
+
+footer {
+    width: 100%;
+    line-height: 60px;
+    clear: both;
+    background-color: #294e79;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
