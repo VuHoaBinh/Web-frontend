@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.outer {
+    width: 80%;
+    height: 600px;
+    border: 1px solid brown;
+}
+
+header {
+    background-color: #6ec8eb;
+    height: 70px;
+    border-bottom: 4px dotted white;
+}
+
+header h1 {
+    position: fixed;
+    top: 15px;
+    right: 183px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #2f60e2;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav {
+    position: fixed;
+    top: 12px;
+    left: 191px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+
+/* ////////////////////////////////////////////// */
+
+section {
+    background-color: #6cc5ef;
+    width: 50%;
+    float: left;
+    height: 480px;
+    border-bottom: 4px dotted white;
+}
+
+section h1 {
+    padding: 30px;
+    color: white;
+    font-size: 25px;
+    padding-left: 8px;
+    padding-bottom: 16px;
+}
+
+.txt_article {
+    color: white;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.form_inf {
+    padding-left: 100px;
+}
+
+aside {
+    background-color: #6cc5ef;
+    width: 50%;
+    float: left;
+    height: 480px;
+    border-bottom: 4px dotted white;
+}
+
+aside img {
+    width: 30%;
+    position: fixed;
+    top: 105px;
+    right: 251px;
+}
+
+aside h1 {
+    position: fixed;
+    bottom: 250px;
+    right: 430px;
+    color: #0002fd;
+    text-shadow: 2px 2px #0002fd;
+}
+
+aside h3 {
+    position: fixed;
+    bottom: 220px;
+    right: 200px;
+    color: #0002fd;
+}
+
+footer {
+    line-height: 25px;
+    background-color: #5ba3ef;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}

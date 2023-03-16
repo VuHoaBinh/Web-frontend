@@ -128,12 +128,18 @@ aside {
     height: 420px;
     float: left;
     padding: 20px;
+    background-color: #f9f9f9;
 }
 
 .a_aside {
     position: fixed;
-    top: 246px;
+    top: 500px;
     right: 169px;
+}
+
+aside img {
+    width: 100%;
+    margin-top: 20px;
 }
 
 footer {
