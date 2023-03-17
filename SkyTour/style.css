@@ -71,7 +71,57 @@ section h1 {
 
 .form_inf {
     padding-left: 100px;
+    color: white;
 }
+
+.frm_title {
+    width: 100%;
+    float: left;
+    margin: 5px;
+}
+
+.frm_title select {
+    border-radius: 10px;
+    position: fixed;
+    top: 221px;
+    left: 525px;
+    text-align: center;
+}
+
+.frm_input input {
+    border-radius: 10px;
+    width: 50%;
+    float: right;
+    margin: 5px;
+}
+
+.frm_input label {
+    width: 40%;
+    float: left;
+    margin: 5px;
+}
+
+.frm_btn {
+    border: 2px dotted #495da0;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.frm_button {
+    position: fixed;
+    top: 520px;
+    left: 530px;
+}
+
+.frm_input textarea {
+    border-radius: 10px;
+    width: 50%;
+    float: right;
+    margin: 5px;
+}
+
+
+/* ///////////////////////////////////////////////////// */
 
 aside {
     background-color: #6cc5ef;
@@ -90,18 +140,21 @@ aside img {
 
 aside h1 {
     position: fixed;
-    bottom: 250px;
-    right: 430px;
+    bottom: 300px;
+    right: 450px;
     color: #0002fd;
     text-shadow: 2px 2px #0002fd;
 }
 
 aside h3 {
     position: fixed;
-    bottom: 220px;
-    right: 200px;
+    bottom: 270px;
+    right: 220px;
     color: #0002fd;
 }
+
+
+/* /////////////////////////////////////////////// */
 
 footer {
     line-height: 25px;
