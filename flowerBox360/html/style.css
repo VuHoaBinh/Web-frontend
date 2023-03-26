@@ -64,6 +64,38 @@ nav ul li {
 nav ul a {
     text-decoration: none;
     color: white;
+    width: 50px;
+    text-align: center;
+}
+
+.level1 li:hover {
+    background-color: red;
+}
+
+.level2 {
+    display: none;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.level1 li:hover .level2 {
+    display: block;
+    position: absolute;
+}
+
+.level2 li {
+    width: 300px;
+    background-color: blue;
+    padding: 5px;
+}
+
+.level2 li:hover {
+    background-color: #1c3451;
+}
+
+.level2 li a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 

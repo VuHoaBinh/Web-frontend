@@ -44,6 +44,33 @@ nav ul li a {
     font-size: 25px;
 }
 
+.level1 li:hover {
+    background-color: red;
+}
+
+.level2 {
+    display: none;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.level1 li:hover .level2 {
+    display: block;
+    position: absolute;
+}
+
+.level2 li {
+    width: 300px;
+    background-color: #13b561;
+    padding: 5px;
+}
+
+.level2 li a:hover {
+    color: rgb(70, 48, 48);
+    text-decoration: none;
+    font-size: 25px;
+}
+
 
 /* ////////////////////////////////////////////// */
 
@@ -81,15 +108,15 @@ section h1 {
 }
 
 .frm_title select {
-    border-radius: 10px;
+    border-radius: 5px;
     position: fixed;
-    top: 221px;
-    left: 525px;
+    top: 244px;
+    left: 505px;
     text-align: center;
 }
 
 .frm_input input {
-    border-radius: 10px;
+    border-radius: 5px;
     width: 50%;
     float: right;
     margin: 5px;
@@ -110,7 +137,7 @@ section h1 {
 .frm_button {
     position: fixed;
     top: 520px;
-    left: 530px;
+    left: 505px;
 }
 
 .frm_input textarea {
@@ -140,7 +167,7 @@ aside img {
 
 aside h1 {
     position: fixed;
-    bottom: 300px;
+    bottom: 250px;
     right: 450px;
     color: #0002fd;
     text-shadow: 2px 2px #0002fd;
@@ -148,7 +175,7 @@ aside h1 {
 
 aside h3 {
     position: fixed;
-    bottom: 270px;
+    bottom: 220px;
     right: 220px;
     color: #0002fd;
 }
